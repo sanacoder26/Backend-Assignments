@@ -42,10 +42,9 @@ A complete backend for a blog application built with Node.js, Express, and Mongo
 3. Create a `.env` file in the root directory and add the following:
    ```env
    PORT=5000
-   MONGODB_URI=mongodb+srv://sanaakhter:your_password@cluster0.6pulirz.mongodb.net/blog-app
+   MONGODB_URI=  enter your url
    JWT_SECRET=your_super_secret_jwt_key
-   JWT_EXPIRE=30d
-   NODE_ENV=development
+   
    ```
 
 4. Start the server:
@@ -88,6 +87,3 @@ A complete backend for a blog application built with Node.js, Express, and Mongo
 └── README.md           # Project documentation
 ```
 
-## License
-
-This project is licensed under the ISC License.
