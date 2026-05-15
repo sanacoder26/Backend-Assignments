@@ -1,39 +1,6 @@
-<<<<<<< HEAD
-=======
-# Blog Application Backend
+# Simple CRUD 
 
-A complete backend for a blog application built with Node.js, Express, and MongoDB. This project implements full CRUD operations for blogs and secure user authentication using JWT.
-
-## Features
-
-- **User Authentication**: Secure register and login using JWT and bcrypt password hashing.
-- **Blog CRUD**: Create, Read, Update, and Delete blog posts.
-- **Search Functionality**: Search blogs by title or description using query parameters.
-- **MVC Architecture**: Clean separation of concerns with Models, Controllers, and Routes.
-- **Middleware**: Authentication middleware to protect routes.
-- **Database**: MongoDB integration with Mongoose schemas and validations.
-
-## Tech Stack
-
-- **Node.js**
-- **Express.js**
-- **MongoDB**
-- **Mongoose**
-- **JWT (JSON Web Token)**
-- **Bcryptjs**
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js installed
-- MongoDB installed or a MongoDB Atlas account
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
+1. creat a simple blog crud 
    ```
 
 2. Install dependencies:
@@ -45,7 +12,7 @@ A complete backend for a blog application built with Node.js, Express, and Mongo
    ```env
    PORT=5000
    MONGODB_URI=  enter your url
-   JWT_SECRET=your_super_secret_jwt_key
+   
    
    ```
 
@@ -88,5 +55,3 @@ A complete backend for a blog application built with Node.js, Express, and Mongo
 ├── package.json        # Dependencies and scripts
 └── README.md           # Project documentation
 ```
-
->>>>>>> a64b2b13f5bb7ca7a3fa9a05ea2ddf2cd4fbef3a
